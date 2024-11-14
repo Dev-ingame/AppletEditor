@@ -45,6 +45,6 @@ This project is an interactive Java Applet Editor that allows users to add, move
 3. Run the `AppletEditor.java` file.
 
 ```bash
-git clone https://github.com/YourUsername/Interactive-Java-Applet-Editor.git
-cd Interactive-Java-Applet-Editor
+git clone https://github.com/Dev-ingame/AppletEditor/.git
+cd AppletEditor
 # Open the project in your IDE and run AppletEditor.java
