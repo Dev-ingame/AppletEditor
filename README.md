@@ -48,3 +48,53 @@ This project is an interactive Java Applet Editor that allows users to add, move
 git clone https://github.com/Dev-ingame/AppletEditor/.git
 cd AppletEditor
 # Open the project in your IDE and run AppletEditor.java
+
+```
+
+2. Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
+
+3. **Run the Applet Editor:**
+   - Locate the `AppletEditor.java` file inside your project directory.
+   - Right-click on the `AppletEditor.java` file and select `Run` to start the app.
+   
+   Alternatively, you can run the app from the terminal:
+   ```bash
+   javac AppletEditor.java
+   java AppletEditor
+   ```
+
+## Viewing the Output 
+After running the app, you will see a GUI window where you can interact with the app:
+
+1. **Canvas Area:** This is where you can add shapes (Rectangles, Circles, Triangles), move them around, and resize them.
+
+2. **Buttons:** You will find buttons to change the background color, add shapes, delete shapes, and save the applet code.
+
+   - Add Shapes: Add a shape by clicking on "Add Rectangle", "Add Circle", or "Add Triangle".
+   - Move Shapes: Click on any shape and drag it to move it around the canvas.
+   - Resize Shapes: Right-click on a shape to resize it by dragging the resizing handle.
+   - Delete Shapes: Select a shape and click the "Delete Element" button to remove it from the canvas.
+   - Change Colors: Use the color picker buttons to customize the colors of the background, shapes, and the selected shape.
+   - Once you're done creating your applet, you can click on the "Save as Applet Code" button to generate the Java code. The generated code will be saved as a .java file in your project directory.
+
+## How to Contribute 
+If you’d like to contribute to the project, follow these steps:
+
+Fork the repository.
+1. Create a new branch (`git checkout -b feature-name`).
+2. Commit your changes (`it commit -am 'Add feature'`).
+3. Push to the branch (`git push origin feature-name`).
+4. Create a new pull request.
+
+## Troubleshooting
+- **Java Version:** Make sure you are using Java 8 or higher. The application relies on Swing components which require this version.
+
+- **IDE Configuration:** If you are having trouble running the app from your IDE, ensure that the Java SDK is properly configured.
+
+- **Missing Classes or Errors:** If there are missing classes or any runtime errors, check your IDE’s console for details on what may need to be fixed.
+
+## License
+This project is licensed under the APACHE License - see the LICENSE file for details.
+
+Enjoy creating and customizing your applets with the Interactive Java Applet Editor! 🎨👾
+
